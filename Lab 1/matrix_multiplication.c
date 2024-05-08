@@ -50,8 +50,11 @@ void main(){
             }
         }
 
+        printf("Matrix A:\n");
         display(a,m,n);
+        printf("\nMatrix B:\n");
         display(b,p,q);
+        printf("\nMatrix C:\n");
         display(c,m,q);
 
     }
